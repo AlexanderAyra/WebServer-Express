@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #DEDEDE;
+    display: flex;
+    min-height: 100vh;
+}
+
+form{
+    margin: auto;
+    width: 20%;
+    max-width: 500px;
+    background: silver;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+input{
+    display: block;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 15px;
+}
+#inputSpecial{
+    display: block;
+    padding: 5px;
+    width: 50%;
+    margin: 15px 0;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+input[type = "submit"] {
+    background: linear-gradient(#ffda63, #ffb940);
+    border: 0;
+    color: brown;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+
+input[type="submit"]:hover{
+    opacity: 1;
+}
+
+input[type="submit"]:active{
+transform: scale(0.95);
+}
+
+@media (max-width:768){
+    form{
+        width: 75%;
+    }
+}
+
+@media (max-width:768){
+    form{
+        width: 95%;
+    }
+}
+/*#TituloPrincipal{
+    width: 300px;
+    text-align: center;
+    margin: 15px auto;
+}
+#titulo{
+    font: bold 36px 'miFuente';
+}
+@font-face{
+    font-family:'miFuente';
+    src:url('Creo-ExtraBold.ttf');
+}
+
+#tabla{
+    background-color: royalblue;
+    width: 150px;
+    margin: 0 auto;
+    border: 5px black;
+}*/
